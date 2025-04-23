@@ -66,3 +66,181 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.nav-link{
+  margin-left: 40px;
+}
+
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.footer-links a{
+
+  line-height: 1.9;
+  font-size: 17px !important;
+}
+.footer-links a:hover{
+  color: #9da2f2 !important;
+} 
+
+.links a{
+  font-size: 14px;
+  color: rgb(173, 150, 150) !important; 
+}
+
+.links a:hover{
+  color: #7d84e8 !important;
+}
+
+.middle-link{
+  color: #3f48c1 !important;
+}
+
+.middle-link:hover{
+  color: black !important;
+}
+
+.social-link i{
+
+  
+  margin-right: 22px !important;
+  cursor: pointer;
+}
+
+.social-link i:hover{
+  color: #434bb6 !important;
+}
+
+
+.team-link:hover{
+  color: black !important;
+}
+
+.product-link:hover{
+  color: black !important;
+}
+
+.left-image:hover{
+  
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.universe-btn:hover{
+  background-color: #000 !important;
+  color: white !important;  
+}
+
+.ticket-link a {
+  color: #4751df;
+  opacity: 0.5;
+}
+
+.ticket-link a:hover{
+  color: grey;
+  opacity: 1;
+}
+
+.ticket-link h5{
+  cursor : pointer; 
+}
+
+.ticket-link h5:hover{
+  color: #4751df !important ;
+}
+
+.track-ticket::after{
+  content: "" !important;
+  display: block !important;
+  width: 101% !important;
+  height: 0.8px !important;
+  background-color: #f8f5f5 !important;
+  margin: 3px 0 !important;
+  
+}
+
+.search-icon{
+
+  position: relative;
+  right: 3.5rem;
+  padding: 10px;
+  cursor : pointer;
+
+}
+ .first-link::after{
+  content: "" !important;
+  display: block !important;
+  width: 25% !important;
+  height: 1px !important;
+  background-color: #f8f5f5 !important;
+  /* margin: 10px 0 !important; */
+
+
+}
+
+.second-link{
+  position: relative;
+  left: 12rem;
+  bottom: 2rem;
+}
+
+.second-link::after{
+  content: "" !important;
+  display: block !important;
+  width: 28% !important;
+  height: .8px !important;
+  background-color: #f8f5f5 !important;
+  margin-left: 11px !important;
+
+}
+
+.third-link{
+  position: relative;
+  left: 26rem;
+  bottom: 4rem;
+}
+
+.third-link::after{
+  content: "" !important;
+  display: block !important;
+  width: 20% !important;
+  height: .8px !important;
+  background-color: #f8f5f5 !important;
+  margin-left: 11px !important;
+
+}
+
+.fourth-link{
+  position: relative;
+  bottom: 3.2rem;
+  right: 12px;
+}
+
+.fourth-link::after{
+  content: "" !important;
+  display: block !important;
+  width: 19% !important;
+  height: .8px !important;
+  background-color: #f8f5f5 !important;
+  margin-left: 11px !important;
+}
